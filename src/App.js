@@ -1,13 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Container, Row } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello!</h1>
-      <p>This site is still under production. Please wait till further notice.</p>
-      <p>In the meantime, feel free to contact Karim at <a href="mailto:karimsaad47@gmail.com">karimsaad47@gmail.com</a></p>
-    </div>
+    <Container fluid className="justify-content-center">
+      <Row className="justify-content-center">
+        <h1>Hello!</h1>
+        <p>Thanks for visiting this page</p>
+        <p>
+          Unfortunately, this website is still undergoing construction, so
+          please check back soon!
+        </p>
+        <p>
+          In the meantime, feel free to contact Karim at{" "}
+          <a href="mailto:karimsaad47@gmail.com">karimsaad47@gmail.com</a>{" "}
+        </p>
+      </Row>
+    </Container>
   );
 }
 

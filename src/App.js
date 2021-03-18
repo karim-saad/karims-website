@@ -1,9 +1,11 @@
 import "./App.css";
 import { Container, Row } from "react-bootstrap";
+import MainNavbar from "./components/MainNavbar";
 
 function App() {
   return (
-    <Container fluid>
+    <Container fluid className="p-0">
+      <MainNavbar />
       <Row className="justify-content-center my-1">
         <h1>Hello!</h1>
       </Row>

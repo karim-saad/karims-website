@@ -1,12 +1,13 @@
-.App {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.find-page svg {
+  font-size: 3em;
 }
 
-.app-container {
-  width: 100vw;
-  height: 100vw;
-  padding: 0px;
+.responsive-header {
+  font-size: 2em;
+}
+
+@media all and (max-width: 425px) {
+  .responsive-header {
+    font-size: 1.25em;
+  }
 }

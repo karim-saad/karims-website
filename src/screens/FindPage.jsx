@@ -13,13 +13,19 @@ const FindPage = () => {
       </Row>
       <Row className="justify-content-center text-center">
         <Col>
-          <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+          <a href="mailto:karimsaad47@gmail.com">
+            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+          </a>
         </Col>
         <Col>
-          <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+          <a href="https://github.com/karim-saad">
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+          </a>
         </Col>
         <Col>
-          <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+          <a href="https://www.linkedin.com/in/karimsaad47/">
+            <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+          </a>
         </Col>
       </Row>
     </Container>

@@ -3,15 +3,21 @@ import { Container, Row } from "react-bootstrap";
 
 function App() {
   return (
-    <Container fluid className="justify-content-center">
-      <Row className="justify-content-center">
+    <Container fluid>
+      <Row className="justify-content-center my-1">
         <h1>Hello!</h1>
-        <p>Thanks for visiting this page</p>
-        <p>
+      </Row>
+      <Row className="justify-content-center">
+        <p className="my-1">Thanks for visiting this page!</p>
+      </Row>
+      <Row className="justify-content-center">
+        <p className="my-1">
           Unfortunately, this website is still undergoing construction, so
           please check back soon!
         </p>
-        <p>
+      </Row>
+      <Row className="justify-content-center">
+        <p className="my-1">
           In the meantime, feel free to contact Karim at{" "}
           <a href="mailto:karimsaad47@gmail.com">karimsaad47@gmail.com</a>{" "}
         </p>

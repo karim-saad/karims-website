@@ -8,7 +8,7 @@ const MainNavbar = () => {
       </Navbar.Brand>
       <Nav className="ml-auto">
         <Nav.Link href="/work">Work</Nav.Link>
-        <Nav.Link href="/contact">Contact</Nav.Link>
+        <Nav.Link href="/find">Find Me</Nav.Link>
       </Nav>
     </Navbar>
   );

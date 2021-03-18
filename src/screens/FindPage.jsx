@@ -6,6 +6,11 @@ const FindPage = () => {
   return (
     <Container>
       <Row className="justify-content-center">
+        <h2 className="text-center">
+          You can find me on other platforms here!
+        </h2>
+      </Row>
+      <Row className="justify-content-center">
         <Col>
           <p>GitHub</p>
         </Col>

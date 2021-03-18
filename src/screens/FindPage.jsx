@@ -1,21 +1,31 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const FindPage = () => {
   return (
-    <Container>
+    <Container fluid className="find-page">
       <Row className="justify-content-center">
-        <h2 className="text-center">
-          You can find me on other platforms here!
-        </h2>
+        <p className="text-center responsive-header">
+          You can find me on other platforms too!
+        </p>
       </Row>
-      <Row className="justify-content-center">
+      <Row className="justify-content-center text-center">
         <Col>
-          <p>GitHub</p>
+          <a href="mailto:karimsaad47@gmail.com">
+            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+          </a>
         </Col>
         <Col>
-          <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+          <a href="https://github.com/karim-saad">
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+          </a>
+        </Col>
+        <Col>
+          <a href="https://www.linkedin.com/in/karimsaad47/">
+            <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+          </a>
         </Col>
       </Row>
     </Container>

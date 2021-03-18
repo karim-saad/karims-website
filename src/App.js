@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <Container fluid className="p-0">
+    <Container fluid>
       <MainNavbar />
       <BrowserRouter>
         <Switch>

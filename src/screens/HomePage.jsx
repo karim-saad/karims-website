@@ -2,7 +2,7 @@ import { Container, Row } from "react-bootstrap";
 
 const HomePage = () => {
   return (
-    <Container>
+    <Container className="p-0">
       <Row className="justify-content-center my-1">
         <h1>Hello!</h1>
       </Row>

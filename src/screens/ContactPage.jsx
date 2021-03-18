@@ -4,7 +4,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const ContactPage = () => {
   return (
-    <Container>
+    <Container className="p-0">
       <Row className="justify-content-center">
         <Col>
           <p>GitHub</p>

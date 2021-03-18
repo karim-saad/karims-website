@@ -1,10 +1,17 @@
-import { Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const ContactPage = () => {
   return (
     <Container>
-      <Row>
-        <h1>Contact page</h1>
+      <Row className="justify-content-center">
+        <Col>
+          <p>GitHub</p>
+        </Col>
+        <Col>
+          <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+        </Col>
       </Row>
     </Container>
   );

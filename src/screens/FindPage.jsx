@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-const ContactPage = () => {
+const FindPage = () => {
   return (
     <Container>
       <Row className="justify-content-center">
@@ -17,4 +17,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default FindPage;
